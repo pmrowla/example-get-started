@@ -9,3 +9,7 @@ featurize:
 train:
   seed: 20170428
   n_estimators: 50
+  test_list:
+    - item0
+    - item1:
+      foo: 1

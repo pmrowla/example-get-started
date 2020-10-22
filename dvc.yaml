@@ -27,6 +27,7 @@ stages:
     params:
     - train.n_estimators
     - train.seed
+    - train.test_list
     outs:
     - model.pkl
   evaluate:
